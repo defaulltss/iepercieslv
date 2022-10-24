@@ -3,9 +3,10 @@
     text-decoration: none;
     color: #000;
     font-size: larger;
+    margin: auto;
     
 }
-#html {
+html {
     background-color: #E5E5E5;
 }
 .header {
@@ -15,5 +16,16 @@
     width: 1%;
     height: 1%;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 0.8%;
+}
+.body {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+.button_left {
+    width: 5%;
+    height: 110%;
+}
+.rounded-lg-3 {
+    height: 10%;
 }
