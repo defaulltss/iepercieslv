@@ -3,29 +3,50 @@
     text-decoration: none;
     color: #000;
     font-size: larger;
-    margin: auto;
-    
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    color: black;
 }
 html {
     background-color: #E5E5E5;
 }
 .header {
     background-color: #E5E5E5;
-}
-.button_right{
-    width: 1%;
-    height: 1%;
-    margin-left: 1%;
-    margin-top: 0.8%;
+    height: 5%;
 }
 .body {
     background-color: #E5E5E5;
     text-align: center;
-}
-.button_left {
-    width: 5%;
-    height: 110%;
+    height: 89%;
 }
 .rounded-lg-3 {
+    height: 50%;
+    width: 170%;
+}
+.options2{
+    text-align: center;
+}
+.sveiciens{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.footer {
+    background-color: #E5E5E5;
+    text-align: center;
+    height: 15%;
+}
+.button_open{
+    width: 1%;
     height: 10%;
+    background-color: #000;
+    margin: 1%;
+
+}
+.footer{
+    background-color: gray;
+    height: 6%;
+    
 }
