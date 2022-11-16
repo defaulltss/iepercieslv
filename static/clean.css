@@ -12,13 +12,13 @@ html {
     background-color: #E5E5E5;
 }
 .header {
-    background-color: #E5E5E5;
-    height: 5%;
+    background-color: gray;
+    height: 6%;
 }
 .body {
     background-color: #E5E5E5;
     text-align: center;
-    height: 89%;
+    height: 88%;
 }
 .rounded-lg-3 {
     height: 50%;
@@ -39,14 +39,25 @@ html {
     height: 15%;
 }
 .button_open{
-    width: 1%;
-    height: 10%;
-    background-color: #000;
-    margin: 1%;
-
+    margin-top: 0.5%;
+    margin-left: 1%;
+    border: none;
+    background-color: gray;
+}
+.button_close{
+    margin-left: 1%;
+    border: none;
+    background-color: white;
 }
 .footer{
     background-color: gray;
     height: 6%;
-    
+}
+.input{
+    border-radius: 10px;
+    border-color: #000;
+}
+.user_dropdown{
+    margin-left: 94%;
+    margin-top: 0.5%;
 }
