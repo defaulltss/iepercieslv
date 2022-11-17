@@ -2,21 +2,15 @@
     include_once 'header.php'
 ?>
 <div class="body">
-    <h6>E-pasts</h6>
-    <input type="text" class="input"><br>
-    <h6>Parole</h6>
-    <input type="text" class="input"><br><br>
-    <button type="submit"><a>Pieslēgties</a></button><br>
-    <h5>nevari pieslēgties ? tad reģistrējies</h5>
-    <button type="submit" id="register"><a>Registreties</a></button>
+    <form action="templates/signup.inc.php" method="POST">
+        <h6>E-pasts</h6>
+        <input type="text" name="mailuid" class="input"><br>
+        <h6>Parole</h6>
+        <input type="password" name="pwd" class="input"><br><br>
+        <button type="submit" name="login-submit"><a>Pieslēgties</a></button><br><br>
+        <a>nevari pieslēgties ? tad </a><a href="register.php">Registrējies</a>
+    </form>
 </div>
-<script>
-document.getElementById("register").addEventListener("click", redirectFunction)
-
-function redirectFunction(){
-    window.location.href = "register.php"
-}
-</script>
 <?php
     include_once 'footer.php'
 ?>

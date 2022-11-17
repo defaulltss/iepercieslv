@@ -13,7 +13,7 @@ html {
 }
 .header {
     background-color: gray;
-    height: 6%;
+    height: 5.7%;
 }
 .body {
     background-color: #E5E5E5;
@@ -51,13 +51,9 @@ html {
 }
 .footer{
     background-color: gray;
-    height: 6%;
+    height: 6.3%;
 }
 .input{
     border-radius: 10px;
     border-color: #000;
-}
-.user_dropdown{
-    margin-left: 94%;
-    margin-top: 0.5%;
 }
