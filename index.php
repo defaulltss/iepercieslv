@@ -6,8 +6,14 @@
 <div class="body">
   <br><br><br>
     <h1 style="text-align:center;" class="sveiciens">Sveicināti mana jaunuzņēmumā</h1>
-    <h5 style="text-align:center;" class="sveiciens">Jūs nēesat reģistrējies</h5>
-    <h5 style="text-align:center;" class="sveiciens">Jūs esat reģistrējies</h5>
+    <?php
+      if (isset($_SESSION['userId'])) {
+        echo '<h5 style="text-align:center;" class="sveiciens">Jūs esat reģistrējies</h5>';
+      }
+      else {
+        echo '<h5 style="text-align:center;" class="sveiciens">Jūs nēesat reģistrējies</h5>';
+      }
+    ?>
     <br><br>
     <div class="container my-5">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">

@@ -23,7 +23,16 @@
             <a class="nav-link disabled">Par mums</a>
         </div>
         </div>
-        <button class="btn"><a href="login.php">Pieslēgties</a></button>
+        <?php
+        if (isset($_SESSION['userId'])) {
+            echo '<form action="templates/logout.inc.php" method="POST">
+            <button class="btn" type="submit" name="logout-submit">atlsēgties</button>
+            </form>';
+        }
+        else {
+            echo '<button class="btn"><a href="login.php">Pieslēgties</a></button>';
+        }
+        ?>
     </div>
     </nav>
 </header>

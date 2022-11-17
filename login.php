@@ -2,7 +2,7 @@
     include_once 'header.php'
 ?>
 <div class="body">
-    <form action="templates/signup.inc.php" method="POST">
+    <form action="templates/login.inc.php" method="POST">
         <h6>E-pasts</h6>
         <input type="text" name="mailuid" class="input"><br>
         <h6>Parole</h6>
