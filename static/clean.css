@@ -57,3 +57,18 @@ html {
     border-radius: 10px;
     border-color: #000;
 }
+.indexpic {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.navtext {
+    color: black;
+    text-decoration: none;
+    margin: 1.5%;
+}
+.navbtn {
+    background-color: gray;
+    text-decoration: none;
+    text-align: end;
+}

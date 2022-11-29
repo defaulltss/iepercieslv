@@ -8,7 +8,7 @@
         <h6>Parole</h6>
         <input type="password" name="pwd" class="input"><br><br>
         <button type="submit" name="login-submit"><a>Pieslēgties</a></button><br><br>
-        <a>nevari pieslēgties ? tad </a><a href="register.php">Registrējies</a>
+        <a>nevari pieslēgties ? tad </a><a href="register.php">Reģistrējies</a>
     </form>
 </div>
 <?php

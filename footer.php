@@ -1,5 +1,5 @@
 </main>
 <footer class="footer">
-    <h3>Paldies ka apciemoji manu web page</h3>
+    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Inpact</p>
 </footer>
 </html>
