@@ -1,6 +1,12 @@
 <?php
     include_once 'header.php'
 ?>
+<?php 
+      require 'templates/dbh.inc.php';
+
+      $sql = "SELECT * FROM users";
+      $result = $conn->query($sql);
+?>
 
 
 <div class="body">
@@ -16,7 +22,20 @@
             <img src="static/img/music.jpg" style="height:20%; width: 120%; border-radius: 20px;" >
         </div>
       </div>
-</div>
+  </div>
+  <div class="underhero">
+      <?php
+      if (isset($_SESSION['userId'])){
+          if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+              if ($row['users_id'] == $_SESSION['userId']){
+                echo 'Sveiki, '.$row['users_firstname'];
+                  }
+              }
+            }
+      }
+      ?>
+  </div>
 </div>
 <?php
     include_once 'footer.php'
