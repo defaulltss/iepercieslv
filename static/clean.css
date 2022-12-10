@@ -13,13 +13,14 @@ html {
 }
 .header {
     background-color: gray;
-    height: 7%;
     text-align: center;
+    height: auto;
+
 }
 .body {
     background-color: #E5E5E5;
     text-align: center;
-    height: 88%;
+    height: 93%
 }
 .rounded-lg-3 {
     height: 50%;
@@ -56,6 +57,7 @@ html {
     text-decoration: none;
     margin: 1.5%;
     font-size:x-large;
+    margin-top: 1%;
 }
 .navbtn {
     background-color: gray;
@@ -81,4 +83,10 @@ html {
 }
 .form {
     margin-left: 1%;
+}
+.select {
+    border-radius: 10px;
+    border-color: #000;
+    width: 15%;
+    text-align: center;
 }

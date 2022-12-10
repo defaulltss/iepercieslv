@@ -2,7 +2,9 @@
     include_once 'header.php'
 ?>
 <div class="body">
+<br><br><br>
 <h1>Reģistrācija</h1>
+<br>
     <form action="templates/signup.inc.php" method="POST">
         <h6>Vards</h6>
         <input type="text" name="firstname" class="input"><br>
