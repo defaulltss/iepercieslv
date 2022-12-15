@@ -39,3 +39,16 @@ CREATE TABLE comments (
 	coment VARCHAR(320),
 	FOREIGN KEY (post_id) REFERENCES post (post_id)
 );
+INSERT INTO songs(song_name, song_genre , song_author)
+VALUES ('The way i see you ',' pop ', 'Leonardo Pegassi'),
+		('Smells Liek Teen Spirit ',' pop ', 'Nirvana'),
+		('Imagine ', 'rap' , 'John Lennon'),
+		('Billie Jean', 'hip-hop', 'Micheal Jackson'),
+		(NULL , NULL , NULL );
+		
+INSERT INTO books(book_name, book_genre, book_author)
+VALUES ('To kill a mocking bird', 'Fantasy', 'Harper Lee'),
+		('Harry Potter and the Philosophers Stone','Romance','J.K. Rowling'),
+		('The Lord of the Rings', 'Sci-Fi','J.R.R. Tolkien'),
+		('The Great Gatsby','Fantasy','J.R.R. Tolkien'),
+		(NULL , NULL , NULL );
