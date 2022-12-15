@@ -19,10 +19,11 @@
                 echo 'E-pasts   : '.$row['users_uid']. '<br>';
                   }
               }
-            }
+          }
+        echo '<br><a href="userpage-edit.php">Veikt izmaiņas</a>';
       }
       ?>
-    <br><a href="ierkasti.php">Mani veiktie ierkasti </a>
+    <br><br><a href="ierkasti.php">Mani veiktie ierkasti </a>
 </div>
 <?php
     include_once 'footer.php'

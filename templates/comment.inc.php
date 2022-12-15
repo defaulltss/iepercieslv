@@ -48,7 +48,6 @@ if (isset($_POST['comment'])) {
             mysqli_stmt_execute($stmt);
             header("Location: ../forums.php?signup=postmade");
             exit();
-            
         }
     }
 }
